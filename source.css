@@ -78,11 +78,20 @@ html{
     padding-left: 10%;
     padding-right: 10%;
 }
+.gallery_title{
+    display: grid;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+}
+.document_gallery{
+    padding-bottom:5%;
+}
 .document_grid{
+    padding-top: 2%;
     padding-left: 0%;
     padding-right: 0%;
     display: grid;
-    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-columns: 2% 15% 15% 3% 15% 15% 3% 15% 15% 2%;
     grid-template-rows: 100%;
 }
 .document{
@@ -92,5 +101,26 @@ html{
     display: block;
     justify-self: center;
     height:auto;
-    width:80%;
+    width:100%;
+}
+.document_info{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content:left;
+    font-size: 13px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.document_block{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.document_name{
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 5%;
+    font-family: 'Courier New', Courier, monospace;
+
 }
