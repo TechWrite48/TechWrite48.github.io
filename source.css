@@ -63,6 +63,15 @@ html{
     width: auto;
     opacity: .75;
 }
+.in_progress{
+    background-color:dimgray;
+    border-style:dashed;
+    border-radius: 5px;
+    display:grid;
+    text-align: center;
+    width:100%;
+    height:80%;
+}
 .main_info{
     border-left-width: 2px;
     border-left-style: dashed;
@@ -124,4 +133,3 @@ html{
     font-family: 'Courier New', Courier, monospace;
 
 }
-/*This last push didn't send the css file?*/
