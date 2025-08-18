@@ -28,40 +28,9 @@ html{
     display: grid;
     justify-content: center;
 }
-.pond_game{
+.left_game{
     width: 80%;
     height: 100%;
-}
-.project_pond{
-    align-self: center;
-    padding-top: 10%;
-    width: 100%;
-    height: 70%;
-    display: grid;
-    grid-template-columns: 10% 10%;
-    background-image: url(page_resources/water_surface.gif);
-    box-shadow: inset 0 -3em 3em rgba(0, 73, 200, 0.3);
-    border-radius: 5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgb(140, 53, 34);
-}
-.project_checkbox{
-    appearance: none;
-}
-@keyframes project1_swim {
-    from {
-    transform: translateX(0%);
-    }
-
-    to {
-    transform: translateX(100%);
-    }
-}
-.swimming_project{
-    height: 50px;
-    width: auto;
-    opacity: .75;
 }
 .in_progress{
     background-color:dimgray;
