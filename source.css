@@ -208,6 +208,7 @@ html{
         border-bottom-style: dashed;
         border-bottom-color:black;
         border-bottom-width: 2px;
+        margin-bottom: 15px;
     }
     .game_name{
         text-align: center;
