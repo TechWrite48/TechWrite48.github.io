@@ -209,6 +209,7 @@ html{
         border-bottom-color:black;
         border-bottom-width: 2px;
         margin-bottom: 15px;
+        height:auto;
     }
     .game_name{
         text-align: center;
