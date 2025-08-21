@@ -213,6 +213,9 @@ html{
     .game_name{
         text-align: center;
     }
+    .intro_info{
+        padding-bottom:12px;
+    }
     .left_game{
         padding-bottom: 12px;
     }
